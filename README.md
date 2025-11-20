@@ -95,10 +95,10 @@ Configuram rede Wi-Fi, criam a interface web com sliders e botões, e definem as
 **Testes Gerais:** Avaliação das rotas HTTP, salvamento de posições, sequência automática, alcance de ângulos, estabilidade da alimentação e precisão dos movimentos.
 
 ## Conclusão
-O braço robótico foi implementado com sucesso, controlando quatro servos de forma independente e realizando tarefas automatizadas. O sistema responde corretamente às rotas definidas, armazena posições, executa movimentos automáticos entre pontos programados e mantém estabilidade graças à alimentação externa. Os testes confirmaram a precisão, confiabilidade e aplicação prática de conceitos de computação aplicada à física.
+O braço robótico foi implementado com sucesso, controlando quatro servos de forma independente e realizando tarefas automatizadas. O sistema responde corretamente às rotas definidas, armazena posições, executa movimentos automáticos entre pontos programados e mantém estabilidade graças à alimentação externa. Os testes confirmaram a precisão, confiabilidade e aplicação prática de conceitos de computação física.
 
 ## Comentários
-O projeto inicialmente utilizou MicroPython e Thonny, mas devido a problemas com drivers SG90, foi migrado para Arduino IDE. A alimentação separada dos servos eliminou quedas de tensão e reinicializações, garantindo operação estável e consistente do ESP32.
+O projeto inicialmente utilizou MicroPython e Thonny, mas devido a problemas com drivers SG90, foi migrado para Arduino IDE. Além disso, a alimentação separada dos servos eliminou quedas de tensão e reinicializações, garantindo operação estável e consistente do ESP32.
 
 ## Referências
 - [Datasheet SG90](http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf)  
