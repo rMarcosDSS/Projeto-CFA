@@ -85,7 +85,7 @@ Controlam os servos, definem ângulos iniciais e limites de movimento, permitem 
 Configuram rede Wi-Fi, criam a interface web com sliders e botões, e definem as rotas HTTP que permitem controle remoto e salvamento de posições.
 
 <img width="628" height="514" alt="image" src="https://github.com/user-attachments/assets/fb7ecc26-7647-4f95-af94-b39cc1f7336f" />
->Página web responsável por controlar o braço robótico
+> Página web responsável por controlar o braço robótico
 
 ## Testes Principais
 **Movimento Livre do Braço:** Teste individual de cada servo, verificando alcance, suavidade, resposta e alimentação estável.
