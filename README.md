@@ -1,4 +1,5 @@
 # Braço Robótico
+<img width="940" height="704" alt="image" src="https://github.com/user-attachments/assets/df08095a-322f-430e-bb48-e2f5b39d149b" />
 
 ## Introdução
 O projeto inicialmente tinha como objetivo desenvolver uma máquina de pelúcia completa, porém essa proposta se mostrou altamente trabalhosa e excessivamente centrada na parte mecânica e de construção, desviando do foco principal da disciplina, que envolve computação aplicada à física.  
@@ -52,6 +53,7 @@ Diante disso, e considerando que o professor disponibilizou um molde pronto para
 - 1 Protoboard  
 
 ## Montagem
+<img width="566" height="484" alt="image" src="https://github.com/user-attachments/assets/10324305-8828-4de7-836a-158c9b0a95ec" />
 
 | Componente | Pino do Servo | Cor do Fio | Conexão no ESP32 / Fonte |
 |------------|---------------|------------|-------------------------|
@@ -81,6 +83,9 @@ Controlam os servos, definem ângulos iniciais e limites de movimento, permitem 
 
 ### WebInterface.h / WebInterface.cpp
 Configuram rede Wi-Fi, criam a interface web com sliders e botões, e definem as rotas HTTP que permitem controle remoto e salvamento de posições.
+
+<img width="628" height="514" alt="image" src="https://github.com/user-attachments/assets/fb7ecc26-7647-4f95-af94-b39cc1f7336f" />
+>Página web responsável por controlar o braço robótico
 
 ## Testes Principais
 **Movimento Livre do Braço:** Teste individual de cada servo, verificando alcance, suavidade, resposta e alimentação estável.
